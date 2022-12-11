@@ -5,15 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="contact.html" />
-    <link rel="stylesheet" href="login.html" />
-    <link rel="stylesheet" href="museum.html" />
-    <link rel="stylesheet" href="about.html" />
+    <link rel="stylesheet" href="index.html" />
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-    <title>Community Science Museum</title>
+    <title>Museum</title>
   </head>
-
+  <style>
+    body {
+      background-image: none;
+      background-color: rgb(210, 219, 219);
+    }
+    .main {
+      display: flex;
+      padding: 100px;
+      padding-top: 30px;
+    }
+    .main h1 {
+      padding: 10px;
+      font-size: 20px;
+      padding: 20px 0 20px 150px;
+    }
+    .main img {
+      padding-right: 65px;
+    }
+    .main h1 span {
+      padding-left: 70px;
+    }
+  </style>
   <body>
     <header>
       <div class="logo">
@@ -39,19 +57,28 @@
         </div>
       </div>
     </header>
+    <div class="main">
+      <div class="online-museum">
+        <h1>ONLINE MUSEUM</h1>
+        <img
+          src="images/scientific-2040795_1280.jpg"
+          width="500px"
+          height="300px"
+        />
+      </div>
+      <div class="about">
+        <h1><span>ABOUT</span></h1>
+        <a href="about.html"
+          ><img
+            src="images/library-1132573_1920.jpg"
+            width="500px"
+            height="300px"
+        /></a>
+      </div>
+    </div>
 
-    <main>
-      <div class="main-menu">
-        <ul>
-          <li><a href="">YOUTH and ADULTS</a></li>
-          <li><a href="">CHILDREN and FAMILY</a></li>
-          <li><a href="">SCHOOL</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </div>
-      <div class="visit-us">
-        <button>VISIT</button>
-      </div>
-    </main>
+    <div class="visit-us">
+      <button>VISIT</button>
+    </div>
   </body>
 </html>

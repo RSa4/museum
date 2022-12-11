@@ -1,45 +1,197 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tfoot,
+thead {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  /*font-size: 100%;
+    vertical-align: baseline;*/
+}
+html,
 body {
-  background-image: url(images/scientific-2040795_1280.jpg);
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+textarea {
+  overflow: auto;
+}
+
+/***** RESET *****/
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+body {
+  background-image: url(images/toa-heftiba-412579.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   margin-left: 7em;
   margin-top: 1em;
+  width: 50%;
+}
+
+.side {
+  width: 50%;
+  margin-left: 630px;
+}
+
+.search {
+  display: inline;
+  position: absolute;
+  top: 6em;
 }
 
 .menu ul {
   list-style-type: none;
-  width: 100%;
+  position: absolute;
+  top: 4em;
+  left: 55em;
 }
 
 .menu ul li {
-  padding: 9px;
+  padding: 5px;
   display: inline-block;
 }
 
 .menu ul li :hover {
-  background-color: rgb(25, 160, 201);
+  background-color: rgb(146, 155, 158);
   text-transform: bold;
 }
 
 .menu ul li a {
   text-decoration: none;
   color: black;
-  font-family: sans-serif;
-  background-color: aliceblue;
+  background-color: rgb(248, 248, 244);
   border-radius: 10px;
   padding: 5px;
 }
 
 .search {
+  position: absolute;
+  top: 7em;
+  left: 59em;
 }
 
-.main-menu {
+.search form {
+}
+
+.main-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+
+.main-menu ul li :hover {
+  background-color: rgb(146, 155, 158);
+  text-transform: bold;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  background-color: rgb(248, 248, 244);
+  padding: 5px;
 }
 
 .visit-us {
+  display: flex;
+  position: absolute;
+  top: 29em;
+  left: 37em;
+  height: 50px;
+}
+
+.visit-us :hover {
+  background-color: rgb(146, 155, 158);
+  text-transform: bold;
+}
+
+.contact {
+  color: white;
 }
