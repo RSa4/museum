@@ -10,5 +10,125 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <title>Login</title>
   </head>
-  <body></body>
+  <style>
+    body {
+      background-image: none;
+    }
+
+    .main {
+      position: absolute;
+      top: 180px;
+      left: 445px;
+    }
+    .email input {
+      position: absolute;
+      left: 445px;
+      top: 230px;
+      min-width: 390px;
+      min-height: 32px;
+      font-style: italic;
+      text-indent: 8px;
+    }
+
+    .password input {
+      position: absolute;
+      left: 445px;
+      top: 280px;
+      min-width: 390px;
+      min-height: 32px;
+      font-style: italic;
+      text-indent: 8px;
+    }
+    .forgot {
+      position: absolute;
+      left: 450px;
+      top: 340px;
+      font-size: 13px;
+    }
+    .forgot a {
+      color: rgb(195, 27, 27);
+    }
+    .button input {
+      position: absolute;
+      left: 445px;
+      top: 380px;
+      min-width: 390px;
+      min-height: 45px;
+      background-color: rgb(195, 27, 27);
+      font-size: 25px;
+      border: 0ch;
+      font-weight: 700;
+    }
+    .member {
+      position: absolute;
+      left: 567px;
+      top: 450px;
+      font-size: 13px;
+    }
+    .member a {
+      color: rgb(195, 27, 27);
+    }
+  </style>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="images/logo.png" width="200px" height="190px"
+        /></a>
+      </div>
+
+      <div class="side">
+        <div class="menu">
+          <ul>
+            <li><a href="museum.html">MUSEUM</a></li>
+            <li><a href="">TICKETS</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+          </ul>
+        </div>
+
+        <div class="search">
+          <form>
+            <input type="search" placeholder="Search" />
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <h1>Login</h1>
+    </div>
+    <div class="email">
+      <input
+        type="email"
+        id="email"
+        placeholder="E-mail adresse"
+        pattern=".+@globex\.com"
+        size="30"
+        required
+      />
+    </div>
+    <div class="password">
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        minlength="8"
+        required
+        placeholder="Password"
+      />
+    </div>
+    <div class="forgot">
+      <p>forgot password? click <a href="">here</a></p>
+    </div>
+
+    <div class="button">
+      <a href="index.html"
+        ><input class="favorite styled" type="button" value="Login"
+      /></a>
+    </div>
+    <div class="member">
+      <p>not a member? <a href="">Sign Up</a></p>
+    </div>
+  </body>
 </html>
