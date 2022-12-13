@@ -32,6 +32,13 @@
     .main h1 span {
       padding-left: 70px;
     }
+
+    '/*'
+    <museum background has to be gray an hover effect shouldnt work on this page. because i gave span to first child>
+    .side menu ul li span {
+      background-color: rgba(255, 255, 255, 0.52);
+    }
+    '*/'
   </style>
   <body>
     <header>
@@ -44,7 +51,9 @@
       <div class="side">
         <div class="menu">
           <ul>
-            <li><a href="museum.html">MUSEUM</a></li>
+            <li>
+              <span><a href="museum.html">MUSEUM</a></span>
+            </li>
             <li><a href="">TICKETS</a></li>
             <li><a href="">SHOP</a></li>
             <li><a href="login.html">LOGIN</a></li>
