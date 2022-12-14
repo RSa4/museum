@@ -1,0 +1,35 @@
+body {
+  background-image: url(images/museum.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contact h1 {
+  position: absolute;
+  top: 2.2em;
+  left: 13em;
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+}
+
+.contact h2 {
+  margin: 40px;
+  font-size: 26px;
+  margin-left: 9em;
+  font-family: "Inter", sans-serif;
+}
+.media {
+  position: absolute;
+  right: 50px;
+  bottom: 12px;
+  background-color: #00000020;
+  width: 300px;
+  max-height: 150px;
+}
+.media img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

@@ -1,0 +1,27 @@
+body {
+  background-image: url(images/about.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+}
+.main h1 {
+  color: white;
+  position: absolute;
+  top: 2.2em;
+  left: 13em;
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+}
+.main p {
+  color: white;
+  padding: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-style: thin;
+  font-size: 15px;
+  line-height: 1.7em;
+  text-indent: 15px;
+  font-family: "Inter", sans-serif;
+}

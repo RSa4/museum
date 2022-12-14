@@ -1,0 +1,63 @@
+body {
+  background-image: none;
+}
+
+.main {
+  position: absolute;
+  top: 180px;
+  left: 445px;
+  font-family: "Inter", sans-serif;
+}
+.email input {
+  position: absolute;
+  left: 445px;
+  top: 230px;
+  min-width: 390px;
+  min-height: 32px;
+  font-style: italic;
+  text-indent: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.password input {
+  position: absolute;
+  left: 445px;
+  top: 280px;
+  min-width: 390px;
+  min-height: 32px;
+  font-style: italic;
+  text-indent: 8px;
+  font-family: "Inter", sans-serif;
+}
+.forgot {
+  position: absolute;
+  left: 450px;
+  top: 340px;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+}
+.forgot a {
+  color: rgb(195, 27, 27);
+}
+.button input {
+  position: absolute;
+  left: 445px;
+  top: 380px;
+  min-width: 390px;
+  min-height: 45px;
+  background-color: rgb(195, 27, 27);
+  font-size: 25px;
+  border: 0ch;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.member {
+  position: absolute;
+  left: 567px;
+  top: 450px;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+}
+.member a {
+  color: rgb(195, 27, 27);
+}

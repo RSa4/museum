@@ -87,15 +87,7 @@ textarea {
 
 /***** RESET *****/
 
-:root {
-  font-family: "Inter", sans-serif;
-}
-@supports (font-variation-settings: normal) {
-  :root {
-    font-family: "Inter var", sans-serif;
-  }
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 body {
   background-image: url(images/toa-heftiba-412579.jpg);
   background-repeat: no-repeat;
@@ -144,6 +136,8 @@ body {
   border-radius: 10px;
   padding: 5px;
   border: 1.6px solid black;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
 
 .search {
@@ -161,6 +155,7 @@ body {
   font-style: italic;
   text-indent: 12px;
   background-color: rgba(255, 255, 255, 0.52);
+  font-weight: 100;
 }
 
 .main-menu ul {
@@ -193,6 +188,9 @@ body {
   text-align: center;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding-top: 16px;
 }
 
 .visit-us {
@@ -204,8 +202,10 @@ body {
   border: 1.6px solid black;
   color: #000000;
   font-size: 20px;
+  font-family: "Inter", sans-serif;
   font-weight: 200;
   background-color: rgba(255, 255, 255, 0.52);
+  font-weight: 500;
 }
 
 .visit-us:hover {

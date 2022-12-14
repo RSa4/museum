@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="index.html" />
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Museum</title>
   </head>
   <style>
@@ -20,24 +26,29 @@
       display: flex;
       padding: 100px;
       padding-top: 30px;
+      font-family: 'Inter', sans-serif;
     }
     .main h1 {
       padding: 10px;
       font-size: 20px;
       padding: 20px 0 20px 150px;
+      font-family: 'Inter', sans-serif;
     }
     .main img {
       padding-right: 65px;
     }
     .main h1 span {
       padding-left: 70px;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .side menu ul li a:first-child {
+      background-color: rgb(146, 155, 158);
+      font-family: 'Inter', sans-serif;
     }
 
     '/*'
-    <museum background has to be gray an hover effect shouldnt work on this page. because i gave span to first child>
-    .side menu ul li span {
-      background-color: rgba(255, 255, 255, 0.52);
-    }
+    <museum background has to be gray an hover effect shouldnt work on this page. because i gave span to first child
     '*/'
   </style>
   <body>
@@ -51,9 +62,7 @@
       <div class="side">
         <div class="menu">
           <ul>
-            <li>
-              <span><a href="museum.html">MUSEUM</a></span>
-            </li>
+            <li><a href="museum.html">MUSEUM</a></li>
             <li><a href="">TICKETS</a></li>
             <li><a href="">SHOP</a></li>
             <li><a href="login.html">LOGIN</a></li>

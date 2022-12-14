@@ -1,78 +1,28 @@
 body {
   background-image: none;
-  background-color: #ecf0f0;
-}
-.header {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  margin-left: 7em;
-  margin-top: 1em;
-  width: 50%;
-}
-
-.side {
-  width: 50%;
-  margin-left: 630px;
-}
-
-.menu ul {
-  list-style-type: none;
-  position: absolute;
-  top: 4em;
-  left: 55em;
-}
-
-.menu ul li {
-  padding: 5px;
-  display: inline-block;
-}
-
-.menu ul li :hover {
-  background-color: rgb(146, 155, 158);
-  text-transform: bold;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.52);
-  border-radius: 10px;
-  padding: 5px;
-  border: 1.6px solid black;
-}
-
-.search {
-  position: absolute;
-  top: 7em;
-  left: 57em;
-  box-sizing: border-box;
-}
-
-.search input {
-  min-width: 265px;
-  min-height: 28px;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  font-style: italic;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.52);
+  background-color: rgb(210, 219, 219);
 }
 .main {
   display: flex;
   padding: 100px;
   padding-top: 30px;
+  font-family: "Inter", sans-serif;
 }
 .main h1 {
   padding: 10px;
   font-size: 20px;
   padding: 20px 0 20px 150px;
+  font-family: "Inter", sans-serif;
 }
 .main img {
   padding-right: 65px;
 }
 .main h1 span {
   padding-left: 70px;
+  font-family: "Inter", sans-serif;
+}
+
+.side menu ul li a:first-child {
+  background-color: rgb(146, 155, 158);
+  font-family: "Inter", sans-serif;
 }
