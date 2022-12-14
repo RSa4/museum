@@ -139,6 +139,9 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
+.menu ul li a.aktive {
+  background-color: rgb(146, 155, 158);
+}
 
 .search {
   position: absolute;
