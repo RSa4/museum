@@ -218,3 +218,46 @@ body {
 .contact {
   color: white;
 }
+
+#menu-icon {
+  font-size: 35px;
+  background-color: #ecf0f0;
+  cursor: pointer;
+  z-index: 10001;
+}
+
+@media (max-width: 1280px) {
+  .header {
+    padding: 14px 2%;
+    transition: 0.2s;
+  }
+  .menu ul li a {
+    margin: 0px 20px;
+  }
+}
+
+@media (max-width: 1090px) {
+  #menu-icon {
+    display: block;
+  }
+  .menu ul li {
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    width: 270px;
+    height: 29vh;
+    background-color: #ecf0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .menu ul li a {
+    display: block;
+    margin: 12px 0;
+    padding: 0 25px;
+    transition: all 0.5s ease;
+  }
+}
