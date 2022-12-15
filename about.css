@@ -19,9 +19,26 @@ body {
   padding: 3em;
   padding-left: 3em;
   padding-right: 3em;
-  font-style: thin;
   font-size: 15px;
   line-height: 1.7em;
   text-indent: 15px;
   font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  .main h1 {
+    font-size: 30px;
+  }
+  .main p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main h1 {
+    font-size: 21px;
+  }
+  .main p {
+    font-size: 7px;
+  }
 }
