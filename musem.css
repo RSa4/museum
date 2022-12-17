@@ -37,7 +37,7 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .main {
     display: flex;
     flex-direction: column;

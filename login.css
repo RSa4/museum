@@ -3,26 +3,33 @@ body {
 }
 
 .main {
-  position: absolute;
-  top: 180px;
-  left: 445px;
+  display: flex;
+  justify-content: center;
   font-family: "Inter", sans-serif;
 }
 .email input {
-  position: absolute;
-  left: 445px;
-  top: 230px;
+  display: flex;
+  justify-content: center;
   min-width: 390px;
   min-height: 32px;
   font-style: italic;
   text-indent: 8px;
   font-family: "Inter", sans-serif;
 }
+.email {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.password {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
 
 .password input {
-  position: absolute;
-  left: 445px;
-  top: 280px;
+  display: flex;
+  justify-content: center;
   min-width: 390px;
   min-height: 32px;
   font-style: italic;
@@ -30,19 +37,24 @@ body {
   font-family: "Inter", sans-serif;
 }
 .forgot {
-  position: absolute;
-  left: 450px;
-  top: 340px;
+  display: flex;
+  justify-content: center;
   font-size: 13px;
   font-family: "Inter", sans-serif;
+  padding-top: 20px;
 }
 .forgot a {
   color: rgb(195, 27, 27);
 }
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
 .button input {
-  position: absolute;
-  left: 445px;
-  top: 380px;
+  display: flex;
+  justify-content: center;
   min-width: 390px;
   min-height: 45px;
   background-color: rgb(195, 27, 27);
@@ -51,13 +63,44 @@ body {
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
+.button a {
+  text-decoration: none;
+}
 .member {
-  position: absolute;
-  left: 567px;
-  top: 450px;
+  display: flex;
+  justify-content: center;
   font-size: 13px;
   font-family: "Inter", sans-serif;
+  padding-top: 20px;
 }
 .member a {
   color: rgb(195, 27, 27);
+}
+
+@media screen and (max-width: 350px) {
+  .main h1 {
+    font-size: 21px;
+  }
+  .email {
+    min-width: 200px;
+  }
+  .email input {
+    min-width: 200px;
+  }
+  .password input {
+    min-width: 254px;
+  }
+  .password {
+    min-width: 254px;
+  }
+  .button input {
+    min-width: 254px;
+  }
+
+  .member {
+    font-size: 11px;
+  }
+  .forgot {
+    font-size: 11px;
+  }
 }

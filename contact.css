@@ -6,12 +6,13 @@ body {
   background-size: cover;
 }
 .contact h1 {
-  position: absolute;
-  top: 2.2em;
-  left: 13em;
   font-size: 45px;
   font-family: "Inter", sans-serif;
   word-wrap: none;
+}
+.tittel {
+  display: flex;
+  justify-content: center;
 }
 
 .contact h2 {
@@ -22,14 +23,10 @@ body {
   word-wrap: none;
 }
 .media {
-  position: absolute;
-  right: 50px;
-  bottom: 12px;
   background-color: #00000020;
-  width: 25%;
-  max-height: 150px;
   display: flex;
   flex-direction: row;
+  padding-left: 800px;
 }
 .media img {
   padding-left: 20px;
@@ -37,33 +34,29 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-@media screen and (max-width: 700px) {
-  .contact h1 {
-    font-size: 30px;
-    word-wrap: none;
-  }
-  .contact h2 {
-    font-size: 20px;
-    word-wrap: none;
-  }
-  .media {
-    width: 20%;
-    align-items: center;
-    position: fixed;
-  }
-}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .contact h1 {
     font-size: 21px;
     word-wrap: none;
+    padding-bottom: 40px;
   }
   .contact h2 {
     font-size: 20px;
     word-wrap: none;
+    margin: 0;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
   }
   .media {
     width: 15%;
-    align-items: center;
+    height: auto;
+    padding-left: 35px;
+    padding-top: 30px;
+  }
+  .media img {
+    width: 25px;
+    height: 25px;
   }
 }
