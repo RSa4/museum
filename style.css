@@ -101,9 +101,6 @@ body {
   display: flex;
   align-items: center;
 }
-.hamburger-menu {
-  display: flex;
-}
 
 .logo {
   margin-left: 7em;
@@ -126,7 +123,7 @@ body {
 
 .menu ul li {
   padding: 5px;
-  display: inline-block;
+  display: inline;
 }
 
 .menu ul li :hover {
@@ -166,6 +163,26 @@ body {
   font-weight: 100;
 }
 
+.bar {
+  width: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.52);
+  border-radius: 10px;
+  padding: 5px;
+  border: 1.6px solid black;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 57.5px;
+  right: 10px;
+  display: none;
+}
+
+.bar a {
+  color: #000000;
+}
+
 .main-menu ul {
   list-style-type: none;
   display: flex;
@@ -174,7 +191,7 @@ body {
 }
 
 .main-menu ul li {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 .main-menu ul li :hover {
@@ -187,11 +204,10 @@ body {
   color: black;
   background-color: rgba(255, 255, 255, 0.52);
   padding: 15px 5px;
-  min-width: 100px;
+  width: 8%;
   min-height: 60px;
   border: 1.6px solid black;
-  position: absolute;
-  right: 0;
+  float: right;
   text-align: center;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -233,40 +249,50 @@ body {
     width: 20%;
     height: auto;
     padding-bottom: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
   }
   .logo img {
     width: 70px;
     height: 70px;
   }
+
   .side {
     display: none;
   }
+  .bar {
+    display: block;
+    margin-right: 70px;
+  }
+
+  .main-menu ul {
+    display: inline;
+  }
   .main-menu ul li a {
-    min-width: 95px;
-    min-height: 30px;
+    width: 20%;
     border-radius: 0;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding-left: 25px;
+    padding-left: 50px;
+    padding-top: 25px;
+    text-align: -webkit-left;
+    margin: 17px;
+    font-size: 12px;
+    font-weight: 700;
   }
   .main-menu ul li span a {
-    min-width: 95px;
-    min-height: 30px;
+    width: 20%;
     border-radius: 0;
-    display: flex;
-    flex-direction: row;
-    padding-left: 25px;
+    padding-left: 50px;
+    text-align: -webkit-left;
+    margin: 17px;
   }
   .main-menu ul li {
     min-width: 100px;
+    position: relative;
+    top: 185px;
   }
-  .main-menu ul {
-    display: flex;
-  }
+
   .main-menu ul li :hover {
-    min-width: 95px;
-    min-height: 30px;
+    min-width: 60px;
   }
 
   .visit-us {
@@ -276,8 +302,8 @@ body {
     justify-content: center;
     font-size: 15px;
     position: absolute;
-    left: 70px;
-    top: 17em;
+    left: 105px;
+    top: 15em;
     padding-top: 13px;
   }
 }
